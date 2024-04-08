@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bytewizer.TinyOS.Sockets", "Bytewizer.TinyOS.Sockets\Bytewizer.TinyOS.Sockets.csproj", "{1887889C-19E5-4D7C-8507-F4567013904F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bytewizer.TinyOS.Pipeline", "Bytewizer.TinyOS.Pipeline\Bytewizer.TinyOS.Pipeline.csproj", "{9E2BD97F-B6E0-4706-A955-57CDFCE1277B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bytewizer.TinyOS.Server", "Bytewizer.TinyOS.Server\Bytewizer.TinyOS.Server.csproj", "{7F1F132E-1F4A-4452-82BB-C3B1A0700141}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Playground", "Playground", "{FEBE9ED2-81D0-4AE4-BC6D-A945B7678CC7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{450594AE-048F-4EF5-8A71-7B4ADD09CC64}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1887889C-19E5-4D7C-8507-F4567013904F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1887889C-19E5-4D7C-8507-F4567013904F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1887889C-19E5-4D7C-8507-F4567013904F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1887889C-19E5-4D7C-8507-F4567013904F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E2BD97F-B6E0-4706-A955-57CDFCE1277B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E2BD97F-B6E0-4706-A955-57CDFCE1277B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E2BD97F-B6E0-4706-A955-57CDFCE1277B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E2BD97F-B6E0-4706-A955-57CDFCE1277B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F1F132E-1F4A-4452-82BB-C3B1A0700141}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F1F132E-1F4A-4452-82BB-C3B1A0700141}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F1F132E-1F4A-4452-82BB-C3B1A0700141}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F1F132E-1F4A-4452-82BB-C3B1A0700141}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7F1F132E-1F4A-4452-82BB-C3B1A0700141} = {FEBE9ED2-81D0-4AE4-BC6D-A945B7678CC7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6AA6FC63-40CD-4BF6-A6C7-7B1C4E2D08E3}
+	EndGlobalSection
+EndGlobal
